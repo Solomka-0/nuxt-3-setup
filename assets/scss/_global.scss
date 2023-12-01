@@ -1,0 +1,132 @@
+$color_link_hover_red: #924840;
+$color_link_hover_red_bottom: #e6dad8;
+$color_link_hover_blue: #c9e5ff;
+$color_link_hover_blue_bottom: #dae2f2;
+
+body,
+a,
+abbr,
+acronym,
+textarea,
+address,
+button,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+select,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Gotham Pro', Tahoma;
+  font-weight: normal;
+  vertical-align: baseline;
+  font-size: 100%;
+  text-decoration: none;
+  // transition: all linear .07s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+q {
+  &::before {
+    display: none;
+  }
+
+  &::after {
+    display: none;
+  }
+}
+
+a {
+  border: 0;
+  outline: none !important;
+
+  &:active {
+    outline: none !important;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+
+  &:hover {
+    outline: none !important;
+  }
+}

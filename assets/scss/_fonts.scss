@@ -1,0 +1,195 @@
+$path: '../fonts/Golos/';
+
+@font-face {
+  font-family: 'Golos';
+  src: url('#{$path}Golos_Text_Regular.eot');
+  src: url('#{$path}Golos_Text_Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}Golos_Text_Regular.woff2') format('woff2'),
+  url('#{$path}Golos_Text_Regular.woff') format('woff'),
+  url('#{$path}Golos_Text_Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('#{$path}Golos_Text_Medium.eot');
+  src: url('#{$path}Golos_Text_Medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}Golos_Text_Medium.woff2') format('woff2'),
+  url('#{$path}Golos_Text_Medium.woff') format('woff'),
+  url('#{$path}Golos_Text_Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('#{$path}Golos_Text_DemiBold.eot');
+  src: url('#{$path}Golos_Text_DemiBold.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}Golos_Text_DemiBold.woff2') format('woff2'),
+  url('#{$path}Golos_Text_DemiBold.woff') format('woff'),
+  url('#{$path}Golos_Text_DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('#{$path}Golos_Text_Bold.eot');
+  src: url('#{$path}Golos_Text_Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}Golos_Text_Bold.woff2') format('woff2'),
+  url('#{$path}Golos_Text_Bold.woff') format('woff'),
+  url('#{$path}Golos_Text_Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+$path: '../fonts/GothamPro/';
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-Bold.eot');
+  src: url('#{$path}GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-Bold.woff2') format('woff2'),
+  url('#{$path}GothamPro-Bold.woff') format('woff'),
+  url('#{$path}GothamPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-Light.eot');
+  src: url('#{$path}GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-Light.woff2') format('woff2'),
+  url('#{$path}GothamPro-Light.woff') format('woff'),
+  url('#{$path}GothamPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-Black.eot');
+  src: url('#{$path}GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-Black.woff2') format('woff2'),
+  url('#{$path}GothamPro-Black.woff') format('woff'),
+  url('#{$path}GothamPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-Italic.eot');
+  src: url('#{$path}GothamPro-Italic.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-Italic.woff2') format('woff2'),
+  url('#{$path}GothamPro-Italic.woff') format('woff'),
+  url('#{$path}GothamPro-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Narrow';
+  src: url('#{$path}GothamProNarrow-Bold.eot');
+  src: url('#{$path}GothamProNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamProNarrow-Bold.woff2') format('woff2'),
+  url('#{$path}GothamProNarrow-Bold.woff') format('woff'),
+  url('#{$path}GothamProNarrow-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-Medium.eot');
+  src: url('#{$path}GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-Medium.woff2') format('woff2'),
+  url('#{$path}GothamPro-Medium.woff') format('woff'),
+  url('#{$path}GothamPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-BoldItalic.eot');
+  src: url('#{$path}GothamPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-BoldItalic.woff2') format('woff2'),
+  url('#{$path}GothamPro-BoldItalic.woff') format('woff'),
+  url('#{$path}GothamPro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro.eot');
+  src: url('#{$path}GothamPro.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro.svg') format('svg'),
+  url('#{$path}GothamPro.woff') format('woff'),
+  url('#{$path}GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-MediumItalic.eot');
+  src: url('#{$path}GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-MediumItalic.woff2') format('woff2'),
+  url('#{$path}GothamPro-MediumItalic.woff') format('woff'),
+  url('#{$path}GothamPro-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-BlackItalic.eot');
+  src: url('#{$path}GothamPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-BlackItalic.woff2') format('woff2'),
+  url('#{$path}GothamPro-BlackItalic.woff') format('woff'),
+  url('#{$path}GothamPro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Narrow';
+  src: url('#{$path}GothamProNarrow-Medium.eot');
+  src: url('#{$path}GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamProNarrow-Medium.woff2') format('woff2'),
+  url('#{$path}GothamProNarrow-Medium.woff') format('woff'),
+  url('#{$path}GothamProNarrow-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('#{$path}GothamPro-LightItalic.eot');
+  src: url('#{$path}GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$path}GothamPro-LightItalic.woff2') format('woff2'),
+  url('#{$path}GothamPro-LightItalic.woff') format('woff'),
+  url('#{$path}GothamPro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
