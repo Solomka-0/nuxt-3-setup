@@ -76,7 +76,7 @@ const commands = [
     {
         command: "locale:reset",
         description: "Сбрасывает локальную языковую модель на основе содержания элемента",
-        params: ['name'],
+        params: ['type', 'name'],
         method: () => import('./commands/localeReset.js')
     },
     {

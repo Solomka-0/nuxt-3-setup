@@ -35,5 +35,5 @@ defineI18nRoute({
 </script>
 
 <style>
-@import "./home.scss";
+@import "./style.scss";
 </style>

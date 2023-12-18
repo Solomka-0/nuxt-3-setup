@@ -20,8 +20,21 @@ function setValue(obj, keys, isMultiple) {
 
 
 export default (requestParams, ctx) => {
+    let mainDir
 
-    const mainDir = path.join(ctx.dirs['src'], requestParams['params']['name'])
+    switch (requestParams['params']['type']) {
+        case 'page':
+            mainDir = path.join(ctx.dirs['pages'], requestParams['computed']['upper_name'])
+            break
+        case 'component':
+            mainDir = path.join(ctx.dirs['src'] + '\\components', requestParams['computed']['upper_name'])
+            break
+        case 'module':
+            mainDir = path.join(ctx.dirs['src'] + '\\modules', requestParams['computed']['upper_name'])
+            break
+        default:
+            mainDir = path.join(ctx.dirs['src'], requestParams['computed']['upper_name'])
+    }
 
     // Читеем vue-файл
     fs.readFile(`${mainDir}\\${requestParams['computed']['upper_name']}.vue`, {encoding: 'utf-8'}, function (err, data) {
