@@ -43,24 +43,24 @@ const withColors = (str, ...args) => {
  * @type {string}
  */
 const commands = [
-    {
-        command: "ui",
-        description: "Генерирует основу для ui-компонента",
-        params: ['name'],
-        method: () => import('./commands/ui.js')
-    },
+    // {
+    //     command: "ui",
+    //     description: "Генерирует основу для ui-компонента",
+    //     params: ['name'],
+    //     method: () => import('./commands/ui.js')
+    // },
     {
         command: "component",
         description: "Создает базовый компонент",
         params: ['name', 'path'],
         method: () => import('./commands/component.js')
     },
-    {
-        command: "shared",
-        description: "???",
-        params: ['name'],
-        method: () => import('./commands/shared')
-    },
+    // {
+    //     command: "shared",
+    //     description: "???",
+    //     params: ['name'],
+    //     method: () => import('./commands/shared')
+    // },
     {
         command: "module",
         description: "Генерирует основу модуля",
@@ -177,41 +177,3 @@ try {
     console.log(description())
     console.log(e)
 }
-
-// const _type = args[2].toLowerCase()
-// const _hierarchy = args[3] ? args[3].split("/") : []
-// const _componentName = _hierarchy.length
-//     ? _hierarchy[_hierarchy.length - 1][0].toUpperCase() + _hierarchy[_hierarchy.length - 1].slice(1)
-//     : ""
-// console.log(_componentName)
-//
-// const _locale = args[3] ? args[3].toLowerCase() : "en"
-//
-// const baseDir = path.join(_hackDir, "./../..")
-// const pagesDir = path.join(baseDir, "./pages")
-// const componentsDir = path.join(baseDir, "./components")
-// const localesDir = path.join(baseDir, "./locales")
-// const rootPath = _type === "component" ? componentsDir : pagesDir
-// const componentDir = _type === "component"
-//     ? path.join(componentsDir, `./${_hierarchy.join("/")}`)
-//     : path.join(pagesDir, `./${_hierarchy.join("/")}`)
-// const scssDir = path.join(componentDir, "./scss")
-// const imgsDir = path.join(componentDir, "./imgs")
-
-// const localePath = path.join(localesDir, `./${_locale}.json`)
-// const vuePath = path.join(componentDir, `./${_componentName}.vue`)
-// const i18nPath = path.join(componentDir, `./i18n.json`)
-// const scssPath = path.join(scssDir, `./${_componentName.toLowerCase()}.scss`)
-// const scssMobilePath = path.join(scssDir, `./${_componentName.toLowerCase()}_mobile.scss`)
-
-
-// console.log(
-//     baseDir,
-//     pagesDir,
-//     componentsDir,
-//     localesDir,
-//     rootPath,
-//     componentDir,
-//     scssDir,
-//     imgsDir
-// )
