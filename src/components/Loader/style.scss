@@ -1,0 +1,39 @@
+.loader {
+  @apply h-[100%] w-[100%] lg:max-h-[64px] lg:max-w-[64px] max-lg:max-h-[48px] max-lg:max-w-[48px];
+  &__wrapper {
+    transition: 1s all;
+
+    @apply select-none;
+    @apply fixed;
+    @apply top-0 left-0;
+    @apply flex justify-center items-center;
+    @apply h-[100%] w-[100%];
+
+    &.loader_disabled {
+      animation: disable 1s ease forwards;
+    }
+
+    &:not(.loader_disabled) {
+      animation: enable 1s ease forwards;
+    }
+
+    @keyframes disable {
+      0% {
+        opacity: 100%;
+      }
+      100% {
+        opacity: 0;
+        @apply hidden;
+      }
+    }
+
+    @keyframes enable {
+      0% {
+        @apply opacity-0;
+      }
+      100% {
+        @apply opacity-100;
+      }
+    }
+  }
+}

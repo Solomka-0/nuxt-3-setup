@@ -1,0 +1,5 @@
+.esc_rounded:after {
+  content: '✖';
+  @apply cursor-pointer;
+  user-select: none;
+}

@@ -31,6 +31,9 @@ export default {
         },
 
         extend: {
+            colors: {
+              'ui-color': "#FF156D"
+            },
             fontSize: {
                 'xs/sm': '0.8125rem',
                 'sm/base': '0.9375rem',

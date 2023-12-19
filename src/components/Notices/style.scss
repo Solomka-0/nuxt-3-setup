@@ -1,0 +1,34 @@
+.notices {
+  @apply flex flex-col;
+  @apply fixed top-0 right-2;
+  @apply max-w-[500px] w-[100%];
+
+  &__message {
+    @apply relative;
+    @apply mt-1;
+    @apply py-1.5 px-3.5;
+    //@apply border-[3px] border-solid border-ui-color;
+    @apply rounded-xl;
+    @apply flex flex-row gap-1 justify-between;
+    @apply bg-white;
+    @apply shadow-ui-color shadow-sm;
+  }
+
+  &__message-text {
+    @apply text-red-500 font-[500];
+  }
+
+  &__message_hidden {
+    @keyframes hide {
+      from {
+        @apply opacity-100;
+      }
+      to {
+        transform: translateY(-50%);
+        @apply mt-[-50px];
+        @apply opacity-0;
+        @apply hidden;
+      }
+    }
+  }
+}
